@@ -9,7 +9,10 @@ const CartProvider = (props) => {
     updateItems([...items,item])
   };
 
-  const removeItemFromCartHandler = (id) =>{};
+  const removeItemFromCartHandler = (id) =>{ 
+    const newUpdatedItems= items.filter((item)=>item.id!==id)
+    updateItems(newUpdatedItems, items.quantity--,)
+  };
   
   const cartContext = {
     items: items,
