@@ -15,7 +15,7 @@ const CartProvider = (props) => {
     items: items,
     addItem: addItemToCartHandler,
     removeItem: removeItemFromCartHandler,
-    message: 'Click Here',
+    
   };
 
   return (

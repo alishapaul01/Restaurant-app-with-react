@@ -11,7 +11,7 @@ const Dummy_Meals=[{
     id: 'm2',
     name: 'Schnitzel',
     description: 'A german speciality!',
-    price: 16.50,
+    price: 16.52,
   },{
     id: 'm3',
     name: 'Barbecue Burger',
