@@ -2,12 +2,12 @@ import classes from './Summary.module.css'
 const Summary=()=>{
     return(
     <section className={classes.summary}>
-    <h2>Delicious food, Delieverd to you</h2>
+    <h2>Delicious food, Delieverd to you. Order your favorite one!</h2>
     <p>
-    Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home.
+    Choose your favorite item from our broad selection of available meals and drinks.
     </p>
     <p>
-    All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!
+    All our meals are cooked  with high-quality ingredients, just-in-time and of course by experienced chefs!
     </p>
     </section>
     )}
